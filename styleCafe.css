@@ -460,6 +460,8 @@ footer .text h1 {
     color: whitesmoke;
 }
 
+/*-----main-footer----*/
+
 .main-footer {
     background-color: black;
     padding: 10px 0;
@@ -640,6 +642,19 @@ footer .text h1 {
     margin: 8px 0;
 }
 
+.address-section {
+        display: flex;
+        flex-direction: column;
+    }
+/*-------main-footer-section----*/
+
+.main-footer ul {
+    gap:10px;
+}
+
+.main-footer ul li {
+    font-size: 12px;
+}
 }
 
 /*-----------Media Query 425 px ------*/
@@ -671,6 +686,16 @@ footer .text h1 {
     .about-us p {
         padding: 5px 0;
     }
+
+    /*-------main-footer-section----*/
+
+.main-footer ul {
+    gap:8px;
+}
+
+.main-footer ul li {
+    font-size: 10px;
+}
 }
 
 
@@ -698,15 +723,9 @@ footer .text h1 {
     font-weight: 100;
 }
 
-/*-------main-footer-section----*/
 
-.main-footer ul {
-    gap:10px;
-}
 
-.main-footer ul li {
-    font-size: 12px;
-}
+
 
 }
 
@@ -728,8 +747,13 @@ footer .text h1 {
         font-size: 14px;
     }
 
-    .address-section {
-        display: flex;
-        flex-direction: column;
-    }
+        /*-------main-footer-section----*/
+
+.main-footer ul {
+    gap:7px;
+}
+
+.main-footer ul li {
+    font-size: 9px;
+}
 }
