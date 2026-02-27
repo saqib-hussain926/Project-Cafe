@@ -459,6 +459,18 @@ footer .text h1 {
 .foot i {
     color: whitesmoke;
 }
+
+.main-footer {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.main-footer ul {
+    color:white;
+    gap:30px;
+    cursor: pointer;
+}
+
 /*-----------Media Query 1024 px ------*/
 
 @media (max-width:1024px) {
@@ -686,6 +698,15 @@ footer .text h1 {
     font-weight: 100;
 }
 
+/*-------main-footer-section----*/
+
+.main-footer ul {
+    gap:10px;
+}
+
+.main-footer ul li {
+    font-size: 12px;
+}
 
 }
 
